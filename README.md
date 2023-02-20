@@ -1,2 +1,3 @@
 # Realtime-bitcoin-pricepredictor-using-kafka
-Real Time Bitcoin Price Predictor using Kafka
+This is a real time Bitcoin Price Predictor using Apache Kafka and LSTM(Machine Learning Model).
+Seqeunce of Steps:
