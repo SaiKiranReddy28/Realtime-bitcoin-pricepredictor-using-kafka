@@ -20,14 +20,22 @@ Step3: This step is crucial in the project. It is expalined in the Model_FlowCha
        
 
 #PitFalls:
+
 **Note this is my first project of creating ETL Pipelines. So there are some mistakes taken place that I would correct. Few of they I observed are:
-1. The model is good at analyzing trend but predicted values are varying from real time values.
-2. I am using a local machine as my kafka server but this can be repalced with platforms like Confluent, EC2 instance where you can get more brokers
-3. There is a deficieny providing interactive dashboards. I will be adding in due course of time.
+
+       1. The model is good at analyzing trend but predicted values are varying from real time values.
+       
+       2. I am using a local machine as my kafka server but this can be repalced with platforms like Confluent, EC2 instance where you can get more brokers
+       
+       3. There is a deficieny providing interactive dashboards. I will be adding in due course of time.
 
 
 #Further Improvements:
-1. Add Twitter-Tweet Sentiment as most of investors follow twitter for latest updates.(This is another huge branch of proccess as it needs to get data from twitter API,    need cleaning and transforming data, need language conversions if not english , analyze sentiment etc)
-2. Improve the model for more cryto currencies
-3. Make the model train on new dataset periodically like training once a week so it get paced with data in timely manner.
+
+       1. Add Twitter-Tweet Sentiment as most of investors follow twitter for latest updates.(This is another huge branch of proccess as it needs to get data from twitter API,    need cleaning and transforming data, need language conversions if not english , analyze sentiment etc)
+       
+       2. Improve the model for more cryto currencies
+       
+       3. Make the model train on new dataset periodically like training once a week so it get paced with data in timely manner.
+       
 
