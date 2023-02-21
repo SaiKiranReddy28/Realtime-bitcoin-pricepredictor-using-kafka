@@ -1,7 +1,8 @@
 # Realtime-bitcoin-pricepredictor-using-kafka
 This is a real time Bitcoin Price Predictor using Apache Kafka,AWS S3 bucket for storage and LSTM(Machine Learning Model).
-
+Tech Stack Required: Apache Kafka, AWS S3 Storage and retrival system, Neural Networks(LSTM), Python(Pandas,Numpy, Scikit-learn, Matplotlib etc)
 #Seqeunce of Steps:
+
 Step1: Create a Kafka Producer for reading data from CoinMarketCap REST API into Kafka.
 
 Step2: Create a Kafka Consumer for reading data from Kafka and writing into S3 Bucket. Here I used S3 bucket for storing the data so it can used in the feature. If you          dont want to store you can skip S3 bucket and feed consumer output to LSTM Model.
