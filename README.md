@@ -3,6 +3,8 @@ This is a real time Bitcoin Price Predictor using Apache Kafka,AWS S3 bucket for
 
 Tech Stack Required: Apache Kafka, AWS S3 Storage and retrival system, Neural Networks(LSTM), Python(Pandas,Numpy, Scikit-learn, Matplotlib etc)
 
+![FlowChart](https://user-images.githubusercontent.com/62593093/220545728-182a5605-031e-40c1-854e-cd2eb7dcf50b.png)
+
 #Seqeunce of Steps:
 
 Step1: Create a Kafka Producer for reading data from CoinMarketCap REST API into Kafka.
