@@ -11,6 +11,8 @@ Step1: Create a Kafka Producer for reading data from CoinMarketCap REST API into
 
 Step2: Create a Kafka Consumer for reading data from Kafka and writing into S3 Bucket. Here I used S3 bucket for storing the data so it can used in the feature. If you          dont want to store you can skip S3 bucket and feed consumer output to LSTM Model.
 
+![Model_FlowChart](https://user-images.githubusercontent.com/62593093/220545861-d4e17d42-181c-4d16-a89c-7b6c6c447919.png)
+
 Step3: This step is crucial in the project. It is expalined in the Model_FlowChart.png clearly.
 
        i) Initially I am using an external database for training the model.
